@@ -1,0 +1,62 @@
+$bg-color:#333;
+$font-color:#fff;
+$primary-color:#008ed6;
+$dark-overlay:rgba(0,0,0,0.7);
+$icon-size:30px;
+
+body{  
+    background:$bg-color;
+    color:$font-color;
+ }   
+ .navbar{
+    border-bottom: $primary-color 3px solid;
+    opacity: 0.8;
+ }
+ #home-section{
+    background: url('https://www.investopedia.com/thmb/I4KNsCURSKhsNUsrs8r56nHeNkE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-1051323342-ba0fd25a857c4149afcfe4a24b3c1d43.jpg') no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 700px;
+ 
+.dark-overlay{
+    background-color: $dark-overlay;
+    position: absolute;
+    top:0;
+left:0;
+width:100%;
+min-height: 700px;
+}
+ .home-inner{
+    padding-top: 150px;
+ }
+ .card-form{
+    opacity: 0.8;
+ }
+ .bi-check-square{
+    color: $primary-color;
+    background:#fff;
+    padding: 4px;
+    border-radius: 5px;
+    font-size: $icon-size;
+ }
+}
+
+#explore-section, #share-section{
+    .bi-check-square{
+        color: #fff;
+        background: #333;
+        padding: 4px;
+        border-radius: 5px;
+        font-size: $icon-size;
+    }
+}
+
+#create-section{
+    .bi-check-square{
+        color: $primary-color;
+        background:#fff;
+        padding: 4px;
+        border-radius: 5px;
+        font-size: $icon-size;
+     }
+}
